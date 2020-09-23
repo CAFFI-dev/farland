@@ -58,13 +58,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        MyInput();
+        InputPlayer();
     }
 
     /// <summary>
-    /// Find user input. Should put this in its own class but im lazy
+    /// Метод, который находит ввод данных игроком
     /// </summary>
-    private void MyInput()
+    private void InputPlayer()
     {
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
@@ -78,6 +78,9 @@ public class PlayerMovement : MonoBehaviour
             StopCrouch();
     }
 
+    /// <summary>
+    /// Метод, стартующий скольжение
+    /// </summary>
     private void StartCrouch()
     {
         transform.localScale = crouchScale;
