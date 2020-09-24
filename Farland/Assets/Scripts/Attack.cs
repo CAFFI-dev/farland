@@ -28,8 +28,7 @@ public class Attack : MonoBehaviour
     public void Melee()
     {
         RaycastHit hit;
-        Vector3 shootOrigin = outer.transform.position;
-        if (Physics.Raycast(shootOrigin, fpsCam.transform.forward, out hit, range))
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log(hit);
             Enemy target = hit.transform.GetComponent<Enemy>();
