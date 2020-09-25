@@ -1,0 +1,71 @@
+# Blender MTL File: 'None'
+# Material Count: 6
+
+newmtl bootsviking
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\BootsViking.png
+
+newmtl high-poly
+Ns 9.000004
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\brown_eye.png
+map_d C:\\Users\\Я\\Desktop\\123\\textures\\brown_eye.png
+
+newmtl pantsviking
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\PantsViking.png
+map_d C:\\Users\\Я\\Desktop\\123\\textures\\PantsViking.png
+
+newmtl short02
+Ns 8.640003
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\short02_diffuse.png
+map_d C:\\Users\\Я\\Desktop\\123\\textures\\short02_diffuse.png
+
+newmtl tunicviking
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\TUNIC_Viking.png
+
+newmtl гордей3
+Ns 4.499998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.950000 0.850000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Я\\Desktop\\123\\textures\\middleage_lightskinned_male_diffuse2.png
