@@ -6,7 +6,7 @@ public enum Who
 {
     cannibal, player
 }
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Rigidbody))]
 public class Enemy : MonoBehaviour
 {
     [Header("Характеристики")]
@@ -21,8 +21,11 @@ public class Enemy : MonoBehaviour
     {
         amount = amount - (amount * armorCent);
         health -= amount;
-        AudioSource screamHit = screamHits[Random.Range(0, screamHits.Length)];
-        screamHit.Play();
+        if (screamHits.Length > 0)
+        {
+            AudioSource screamHit = screamHits[Random.Range(0, screamHits.Length)];
+            screamHit.Play();
+        }
         if(health <= 0f)
         {
             Die();

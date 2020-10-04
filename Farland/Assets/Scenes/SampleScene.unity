@@ -727,7 +727,7 @@ PrefabInstance:
     - target: {fileID: 6245243024255179447, guid: 8e6225595dcd6b34aa3eb3a9f12a613c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9999999
+      value: 2.104
       objectReference: {fileID: 0}
     - target: {fileID: 6245243024255179447, guid: 8e6225595dcd6b34aa3eb3a9f12a613c,
         type: 3}
@@ -757,7 +757,7 @@ PrefabInstance:
     - target: {fileID: 6245243024255179447, guid: 8e6225595dcd6b34aa3eb3a9f12a613c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6245243024255179447, guid: 8e6225595dcd6b34aa3eb3a9f12a613c,
         type: 3}
@@ -773,6 +773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8419866632525975616, guid: 8e6225595dcd6b34aa3eb3a9f12a613c,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e6225595dcd6b34aa3eb3a9f12a613c, type: 3}
@@ -998,7 +1003,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
